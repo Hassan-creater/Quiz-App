@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+.main{
+    width: 100%;
+    height: 100%;
+    background:linear-gradient(45deg,#F0F7EE,#bcc6b9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.sub{
+    width: 550px;
+    height: 600px;
+    background-color:rgba(196, 215, 242,0.7);
+    border-radius: 15px;
+    padding: 15px;
+}
+
+.sub h1{
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    text-decoration: underline;
+    text-shadow: 2px 3px 20px #776871;
+    
+}
+.question{
+    width: 100%;
+    border: 2px solid #776871;
+    padding: 10px;
+    font-size: 1.4rem;
+    font-weight: bolder;
+    margin-top: 50px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px  rgb(94, 92, 92);
+    margin-bottom: 50px;
+}
+
+.options{
+    width: 100%;
+    display: flex;
+    gap:10px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap:20px;
+    padding: 10px;
+    border:2px solid  rgb(196,215,242);
+    border-radius: 5px;
+}
+
+.a{
+    width: 160px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border: 4px solid #584B53;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px rgb(143, 139, 139);
+    cursor: pointer;
+}
+
+.a p span{
+    color: #776871;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+}
+
+.next{
+    margin-top:100px ;
+    margin-left: 160px;
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+
+}
+
+.next button{
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    font-size:1.6rem;
+    font-weight: bolder;
+    background-color: #584B53;
+    color: white;
+}
+
+.next button:hover{
+    background-color: #453a40;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width:478px) {
+    .sub{
+        width: 330px;
+        height: 600px;
+    }
+    .next{
+        width: 150px;
+        margin-top: 45px;
+        margin-left: 76px;
+        position: static;
+    }
+    .options{
+        justify-content: left;
+        border:2px solid  rgb(196,215,242) ;
+    }
+    .question{
+        margin-bottom: 20px;
+    }
+    .a{
+        font-size: 1rem;
+    }
+
+    .a p span{
+        font-size: 1rem;
+    }
+}
