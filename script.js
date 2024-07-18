@@ -1,34 +1,34 @@
 let statements = [
-    `What country has the highest life expectancy?`,
-    `What company was originally called "Cadabra"? `,
+    `Which country has the highest life expectancy?`,
+    `Which company was originally called "Cadabra"? `,
     `Which planet has the most moons?`,
     `How many bones do we have in an ear?`,
-    `What is the world's fastest bird?`,
+    `Which is the world's fastest bird?`,
     `Where did sushi originate?`,
-    `What meat is used in a shepherd's pie?`,
+    `Which meat is used in a shepherd's pie?`,
 ] 
 
 let answers = [
     [
-       'Pakistan','Hong Kong','France','America'   
+       'Pakistan',' Hong Kong',' France',' America'   
     ],
     [
-        `Netflix`,`Facebook`,`Amazon`,`Google`
+        `Netflix`,` Facebook`,` Amazon`, `Google`
     ],
     [
-        `Jupiter`,`Saturn`,`Mars`,`Earth`
+        `Jupiter`, `Saturn`,` Mars`,` Earth`
     ],
     [
-        `1`,`2`,`3`,`4`
+        `1`, `2`, `3`, `4`
     ],
     [
-        `Eagle`,`Falcon`,`Crow`,`Parrot`
+        `Eagle`, `Falcon`,` Crow`,` Parrot`
     ],
     [
-        `China`,`Japan`,`Iran`,`Turkey`
+        `China`,` Japan`,` Iran`, `Turkey`
     ],
     [
-        `Beet`,`Mutton`,`Chicken`,`Lamb`
+        `Beef`, `Mutton`, `Chicken`, `Lamb`
     ],
 
 ]
