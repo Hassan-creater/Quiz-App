@@ -10,13 +10,13 @@ let statements = [
 
 let answers = [
     [
-       'Pakistan',' Hong Kong',' France',' America'   
+       'Pakistan','Hong Kong',' France',' America'   
     ],
     [
-        `Netflix`,` Facebook`,` Amazon`, `Google`
+        `Netflix`,` Facebook`,`Amazon`, `Google`
     ],
     [
-        `Jupiter`, `Saturn`,` Mars`,` Earth`
+        `Jupiter`,`Saturn`,` Mars`,` Earth`
     ],
     [
         `1`, `2`, `3`, `4`
